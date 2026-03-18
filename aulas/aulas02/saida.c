@@ -9,6 +9,7 @@ int main() {
     printf("um texto qualquer\n");
     printf("%i\n", 10 + 10);
     printf("%i\n", 20 +10);
+    
 
 
     return 0;
