@@ -18,10 +18,10 @@ int main() {
     char produto_calca[] = "Calca";
     char produto_meia[] = "Meia Social";
 
-    printf("Produto          Qnt   Valor   unit.\n");
-    printf("%s         %.2i   R$ %.2f\n", produto_camiseta, numero_camiseta, valor_camiseta);
-    printf("%s            %.2i   R$ %.2f\n", produto_calca, numero_calca, valor_calca);
-    printf("%s      %.2i   R$ %.2f\n", produto_meia, numero_meia, valor_meia);
+    printf("Produto           Qnt   Valor   unit.\n");
+    printf("%-10s         %.2i   R$ %.2f\n", produto_camiseta, numero_camiseta, valor_camiseta);
+    printf("%-10s         %.2i   R$ %.2f\n", produto_calca, numero_calca, valor_calca);
+    printf("%-10s         %.2i   R$ %.2f\n", produto_meia, numero_meia, valor_meia);
     printf("=====================================\n");
 
     float valor_total = (numero_camiseta * valor_camiseta) + (numero_calca * valor_calca) + (numero_meia * valor_meia);
